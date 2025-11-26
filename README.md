@@ -23,9 +23,12 @@ This Domoticz plugin calculates and displays the estimated travel time (in minut
 
 ## Installation
 
-1. Place the plugin files in your Domoticz plugins directory.
+1. Clone this project directly in your Domoticz plugins directory (Or create directory and put the `plugin.py` file)
 2. Configure the plugin parameters via the Domoticz Hardware tab.
-3. Start the plugin; it creates a Domoticz custom device named "Trip" to show travel time.
+
+<img width="1178" height="487" alt="image" src="https://github.com/user-attachments/assets/017bf6ff-9dcf-41b6-8306-7edfd06c8c01" />
+
+3. Start the plugin; it creates a Domoticz custom device named "Trip" to show travel time (don't forget to allow discovering of new devices in settings.
 
 ## Usage
 
