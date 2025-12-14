@@ -24,17 +24,21 @@ This Domoticz plugin calculates and displays the estimated travel time (in minut
 ## Installation
 
 1. Clone this project directly in your Domoticz plugins directory (Or create directory and put the `plugin.py` file)
-2. Install WazeRouteCalculator with
+2. Make plugin executable
+```
+sudo chmod +x plugin.py
+```
+3. Install WazeRouteCalculator with
 
 ```
 sudo pip3 install WazeRouteCalculator
 ```
 
-3. Configure the plugin parameters via the Domoticz Hardware tab.
+4. Configure the plugin parameters via the Domoticz Hardware tab.
 
 <img width="1178" height="487" alt="image" src="https://github.com/user-attachments/assets/017bf6ff-9dcf-41b6-8306-7edfd06c8c01" />
 
-4. Restart domoticz; it creates a Domoticz custom device named "Trip" to show travel time (don't forget to allow discovering of new devices in settings).
+5. Restart domoticz; it creates a Domoticz custom device named "Trip" to show travel time (don't forget to allow discovering of new devices in settings).
 
 ## Usage
 
